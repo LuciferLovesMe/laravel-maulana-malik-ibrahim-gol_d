@@ -39,20 +39,20 @@
                                         <div class="u-img"><img src="{{ asset('images/users.jpg') }}" alt="user">
                                         </div>
                                         <div class="u-text">
-                                            {{-- <h4 style="color: lightgrey">{{ Auth::user()->name }}</h4>
-                                            <p style="color: lightgrey">{{ Auth::user()->email }}</p> --}}
+                                            <h4 style="color: lightgrey">{{ Auth::user()->name }}</h4>
+                                            <p style="color: lightgrey">{{ Auth::user()->email }}</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li style="background-color: #7158fd;" role="separator" class="divider"></li>
                                 <li class="log" style="background-color: #263145;">
-                                    {{-- <a href="{{ route('logout') }}" style="color: lightgrey" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                    <a href="{{ route('logout') }}" style="color: lightgrey" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                         <i class="material-icons">power_settings_new</i>{{ __('Logout') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
-                                    </form> --}}
+                                    </form>
                                 </li>
                             </ul>
                         </li>
@@ -78,14 +78,14 @@
                                     <img src="{{ asset('images/users.jpg') }}" alt="user" width="50" class="circle profile-pic" style="border: solid 3px #7158fd;">
                                 </div>
                                 <div class="col m-t-5">
-                                    {{-- <p class="white-text name" style="font-size: 13px;">
+                                    <p class="white-text name" style="font-size: 13px;">
                                         <span class="hidden" style="color:#ffffff;">
                                             {{ Auth::user()->name }}
                                         </span><br>
                                     </p>
                                     <p class="name" style="color:#ffffff;font-size: 14px;">
                                         {{ Auth::user()->email }}
-                                    </p> --}}
+                                    </p>
                                 </div>
                             </div>
                         </div>
