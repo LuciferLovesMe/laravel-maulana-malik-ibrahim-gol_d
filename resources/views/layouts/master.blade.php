@@ -6,6 +6,7 @@
 <body>
 
     {{-- @include('sweet::alert') --}}
+    @include('sweetalert::alert')
 
     <div class="main-wrapper" id="main-wrapper">
 
@@ -201,6 +202,7 @@
     </div>
 
     @include('layouts.script')
+    @stack('extra-script')
 
 </body>
 

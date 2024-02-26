@@ -15,6 +15,8 @@ class CreateSimpleModelsTable extends Migration
     {
         Schema::create('simple_models', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->string('deskripsi');
             $table->timestamps();
         });
     }
