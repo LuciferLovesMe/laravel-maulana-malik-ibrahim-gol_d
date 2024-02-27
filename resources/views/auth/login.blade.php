@@ -39,7 +39,7 @@
 						@error('name')                            
                             <p style="color: red;">{{ $message }}</p>
                         @enderror
-						<input class="input100" type="text" name="name" placeholder="Username">
+						<input class="input100" type="text" name="email" placeholder="Username">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user" aria-hidden="true"></i>
